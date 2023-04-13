@@ -1,0 +1,31 @@
+/**
+ * Theme Name:     Twenty Twenty-One Child
+ * Author:         the WordPress team
+ * Template:       twentytwentyone
+ * Text Domain:	   twenty-twenty-one-child
+ * Description:    Twenty Twenty-One is a blank canvas for your ideas and it makes the block editor your best brush. With new block patterns, which allow you to create a beautiful layout in a matter of seconds, this theme’s soft colors and eye-catching — yet timeless — design will let your work shine. Take it for a spin! See how Twenty Twenty-One elevates your portfolio, business website, or personal blog.
+ */
+
+ /* imports google font Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+:root {
+    --header-bg-color: white;
+    --header-txt-color: #b34661;
+    --footer-bg-color: #F1F3F4;
+    --header-hover-color: #F1F3F4;
+    --secondary-button-color: #003d50;
+    --secondary-button-color-hover: #0e7fa2;
+    --primary-button-color: #ec008c;
+    --menu-text-color: #333;
+    }
+
+.assignment2-class .site-title{
+    /* consumes google font Poppins */
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+    /* consumes --header-txt-color */
+    color: var(--header-txt-color);
+    /* don't set color without setting background-color */
+    background-color: inherit;
+}
