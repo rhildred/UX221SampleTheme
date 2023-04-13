@@ -27,4 +27,6 @@ You will want to make this your own by:
 5. View/test your analytics in real time mode
 ![view in real time mode](README_Images/ViewingAnalytics.png)
 
+I made a video of me [going through the above](https://youtu.be/aN50z2LE9mQ) steps.
+
 You now, should be able to see your theme changes and the analytics data. All customers that you would make a wordpress site for would require customization. The child theme is a way of providing customization while not being trapped on a particular version of the parent theme.
