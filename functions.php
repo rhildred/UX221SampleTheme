@@ -38,3 +38,10 @@ function wpb_add_googleanalytics() { ?>
   gtag('config', 'G-7PB45M0RK4');
 </script>
 <?php }
+
+add_action('wp_head', 'wpb_add_favicon');
+function wpb_add_favicon() { 
+  $faviconUrl = get_stylesheet_directory_uri() . "/favicon.ico";
+  echo "<link rel='icon' type='image/x-icon' href='$faviconUrl' />";
+
+}
